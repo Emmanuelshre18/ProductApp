@@ -1,0 +1,15 @@
+$kind: http-request
+url: http://localhost:8080/api/product
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+      "name": "umbrella",
+      "description": "Coozy umbrella",
+      "price": 50.00,
+      "quantity": 7
+    }
+order: 1000
